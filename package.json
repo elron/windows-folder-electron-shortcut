@@ -1,0 +1,16 @@
+{
+  "name": "windows-folder-electron-shortcut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . --overwrite --platform=win32 --arch=ia32 --out=rlease-builds --version-string.CompanyName=CE --version-string.FireDescription=CE "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.2.1",
+    "electron-packager": "^15.3.0"
+  }
+}
