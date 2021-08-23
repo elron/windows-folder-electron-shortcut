@@ -11,7 +11,7 @@ function createMainWindow() {
     },
   });
 
-  mainWindow.loadFile(`${__dirname}/app/index.html`);
+  mainWindow.loadFile(`${__dirname}/index.html`);
 
   mainWindow.webContents.on("did-finish-load", function () {
     const exePath = process.argv;
